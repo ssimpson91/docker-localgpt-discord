@@ -1,7 +1,7 @@
-# Docker LocalGPT Discord
+# Docker-LocalGPT-Discord
 
 ## Overview
-This repository contains the necessary files and configurations to set up a Local GPT model for Discord. It includes scripts for crawling, ingesting data, and running the Local GPT model, as well as a Dockerfile for containerization.
+This repository contains the necessary files and configurations to set up a Local LLM model for Discord. It includes scripts for crawling, ingesting data, and running the Local LLM model, as well as a Dockerfile for containerization.
 
 ## Contents
 
@@ -12,12 +12,12 @@ This repository contains the necessary files and configurations to set up a Loca
 - `constants.py`: Contains constant values used across the project.
 - `crawl.py`: Script for crawling data.
 - `ingest.py`: Script for ingesting data into the system.
-- `load_models.py`: Script for loading GPT models.
+- `load_models.py`: Script for loading LLM models.
 - `prompt_template_utils.py`: Utility functions for prompt templates.
 - `pyproject.toml`: Configuration file for Python projects.
 - `requirements.txt`: Lists the Python dependencies for the project.
-- `run_localGPT.py`: Script to run the Local GPT model.
-- `run_localGPTL_API.py`: Script to run the Local GPT model with API.
+- `run_localGPT.py`: Script to run the model.
+- `run_localGPTL_API.py`: Script to run the model with API.
 
 ### npm Directory
 This directory contains the Node Package Manager (npm) configurations and dependencies for the project. It includes numerous subdirectories for various npm packages and modules. Some of the notable directories include:
@@ -28,13 +28,13 @@ This directory contains the Node Package Manager (npm) configurations and depend
 - `winston`: A logging library for Node.js.
 
 ## Functions
-- Crawling and ingesting data for use with the Local GPT model.
-- Running the Local GPT model in a Docker container for integration with Discord.
+- Crawling and ingesting data for use with the  model.
+- Running the model in a Docker container for integration with Discord.
 - Utilizing various npm packages for managing Discord interactions, HTTP requests, environment configurations, and logging.
 
 ## Usage Purposes
-- To set up a Local GPT model for Discord using Docker for easy deployment and scalability.
-- To provide scripts and configurations for crawling, ingesting, and running the Local GPT model.
+- To set up a model for Discord using Docker for easy deployment and scalability.
+- To provide scripts and configurations for crawling, ingesting, and running the model.
 - To manage interactions with Discord and handle various backend functionalities using npm packages.
 
 ---

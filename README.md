@@ -194,7 +194,7 @@ python run_localGPT.py --use_history
 ```
 
 
-# Run the Graphical User Interface
+# run_localGPT_API.py before running the Discord bot.
 
 1. Open `constants.py` in an editor of your choice and depending on choice add the LLM you want to use. By default, the following model will be used:
 
@@ -203,21 +203,13 @@ python run_localGPT.py --use_history
    MODEL_BASENAME = "zephyr-7b-beta.Q5_K_M.gguf"
    ```
 
-3. Open up a terminal and activate your python environment that contains the dependencies installed from requirements.txt.
+2. Open up a terminal and activate your python environment that contains the dependencies installed from requirements.txt.
 
-4. Navigate to the `/LOCALGPT` directory.
+3. Run the following command `python run_localGPT_API.py`. The API should being to run.
 
-5. Run the following command `python run_localGPT_API.py`. The API should being to run.
+4. Wait until everything has loaded in. You should see something like `INFO:werkzeug:Press CTRL+C to quit`.
 
-6. Wait until everything has loaded in. You should see something like `INFO:werkzeug:Press CTRL+C to quit`.
-
-7. Open up a second terminal and activate the same python environment.
-
-8. Navigate to the `/LOCALGPT/localGPTUI` directory.
-
-9. Run the command `python localGPTUI.py`.
-
-10. Open up a web browser and go the address `http://localhost:5111/`.
+5. Open up a second terminal and execute the `node ./npm/index.js`.
 
 
 # How to select different LLM models?
